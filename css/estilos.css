@@ -1,0 +1,27 @@
+/* body{
+    background-color: green;
+}
+
+p{
+    color: rgba(0, 0, 255, 0.2);
+}
+
+div{
+    background-color: rgb(186, 19, 44);
+} */
+
+.caja1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(176, 80, 233);
+}
+.caja2{
+    width: 150px;
+    height: 150px;
+    background-color: #ff2f9e;
+}
+.caja3{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(70, 80%, 39%);
+}
