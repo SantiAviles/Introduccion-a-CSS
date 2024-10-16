@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .contenedor-flexible{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .uno{
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            color: white;
+        }
+        .dos{
+            background-color: orange;
+            width: 150px;
+            height: 150px;
+            color: white;
+        }
+        .tres{
+            background-color: violet;
+            width: 150px;
+            height: 150px;
+            color: white;
+        }
+        .cuatro{
+            background-color: blue;
+            width: 150px;
+            height: 150px;
+            color: white;
+        }
+
+        .contenedor-flexible2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .cinco{
+            background-color: green;
+            width: 150px;
+            height: 50px;
+            color: white;
+        }
+        .seis{
+            background-color: rgb(0, 132, 255);
+            width: 150px;
+            height: 150px;
+            color: white;
+        }
+        .siete{
+            background-color: rgb(241, 22, 187);
+            width: 150px;
+            height: 100px;
+            color: white;
+        }
+        .ocho{
+            background-color: rgb(5, 218, 247);
+            width: 150px;
+            height: 200px;
+            color: white;
+        }
+
+        .contenedor-flexible3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap-reverse;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contenedor-flexible">
+        <div class="elemento-flexible uno">Elemento 1</div>
+        <div class="elemento-flexible dos">Elemento 2</div>
+        <div class="elemento-flexible tres">Elemento 3</div>
+        <div class="elemento-flexible cuatro">Elemento 4</div>
+    </div>
+
+    <div class="contenedor-flexible2">
+        <div class="elemento-flexible cinco">Elemento 5</div>
+        <div class="elemento-flexible seis">Elemento 6</div>
+        <div class="elemento-flexible siete">Elemento 7</div>
+        <div class="elemento-flexible ocho">Elemento 8</div>
+    </div>
+
+    <div class="contenedor-flexible3">
+        <div class="elemento-flexible uno cinco">Elemento 9</div>
+        <div class="elemento-flexible dos seis">Elemento 10</div>
+        <div class="elemento-flexible once siete">Elemento 11</div>
+        <div class="elemento-flexible doce ocho">Elemento 12</div>
+        <div class="elemento-flexible dos siete">Elemento 13</div>
+        <div class="elemento-flexible tres uno">Elemento 14</div>
+
+    </div>
+</body>
+</html>
